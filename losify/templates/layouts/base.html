@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Basic Information -->
+        <meta charset="utf-8">
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="description" content="">
+        <meta name="author" content="Tim Fleming">
+
+        <!-- Mobile Meta Information -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">  
+
+        <!-- CSS -->
+        <link href="{{ url_for('static', filename='vendors/css/normalize.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='vendors/css/skeleton.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    </head>
+    {% block body %}
+    {% endblock %}
+</html>

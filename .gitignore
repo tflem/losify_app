@@ -1,0 +1,9 @@
+# Byte-compiled/ optimized / DLL files
+*.pyc
+
+# Unit test / coverage reports
+.coverage
+.cache
+
+# OS and editor files
+.DS_Store

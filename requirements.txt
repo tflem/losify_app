@@ -1,0 +1,9 @@
+Flask==0.12
+
+# Application server for both development and production.
+gunicorn==19.7
+
+# Testing and static analysis.
+pytest==3.0.7
+pytest-cov==2.5.1
+flake8==3.3.0

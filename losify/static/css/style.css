@@ -1,0 +1,187 @@
+/* -------------------------------------------- */
+/* Basic Setup */
+/* -------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FFF;
+    color: #555;
+    font-family: "Lato", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------- */
+/* Reusable Components */
+/* -------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+  padding: 80px 0px;
+}
+
+/* ------ Headings ------ */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #27AE60;
+    font-size: 165%;
+    word-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 115%;
+    color: #FFF;
+    word-spacing: 3px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100%;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #27AE60;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ------ Paragraphs ------ */
+
+.company-intro {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 16px;   
+}
+
+/* ------ Buttons ------ */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #27AE60;
+    border: 1px solid #27AE60;
+    color: #FFF;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #27AE60;
+    color: #FFF;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #219251;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #27AE60;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #27AE60;
+    color: #FFF;
+}
+
+/* -------------------------------------------- */
+/* Header */
+/* -------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url('../css/images/hero.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.company-name {
+    height: 100px;
+    width: auto;
+    float: left;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 26px;
+}
+
+.main-nav li {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #27AE60;
+}
+
+.divider {
+    height: 15px;
+    width: 100%;
+    background-color: #27AE60;
+}
